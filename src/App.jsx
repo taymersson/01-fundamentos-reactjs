@@ -19,6 +19,10 @@ export function App() {
             author="Taymersson PHILIPE"
             content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sit obcaecati neque nihil aspernatur sequi unde repudiandae pariatur officia mollitia cupiditate, suscipit impedit voluptates iure deleniti. Quos laboriosam neque culpa."
           />
+          <Post
+            author="Taymersson PHILIPE"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sit obcaecati neque nihil aspernatur sequi unde repudiandae pariatur officia mollitia cupiditate, suscipit impedit voluptates iure deleniti. Quos laboriosam neque culpa."
+          />
         </main>
       </div>
     </div>
