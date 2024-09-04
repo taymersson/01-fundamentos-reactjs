@@ -11,7 +11,7 @@ const posts = [
     id: 1,
     author: {
       avatarUrl: 'https://github.com/taymersson.png',
-      nome: 'Taymersson Araujo',
+      name: 'Taymersson Araujo',
       role: 'CTO @rocketseat',
     },
     content: [
@@ -25,7 +25,7 @@ const posts = [
     id: 2,
     author: {
       avatarUrl: 'https://github.com/carloshenriquefarias.png',
-      nome: 'Carlos Henrique',
+      name: 'Carlos Henrique',
       role: 'Educator @rocketseat',
     },
     content: [
@@ -33,7 +33,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀', },
       { type: 'link', content: 'jane.design/doctorcare', },
     ],
-    publishedAt: new Date('2024-09-1 19:00:00'),
+    publishedAt: new Date('2024-09-3 18:00:00'),
   },
 ];
 
@@ -48,6 +48,7 @@ export function App() {
           {posts.map(post => {
             return (
               <Post
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
